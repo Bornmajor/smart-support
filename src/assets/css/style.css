@@ -1,0 +1,66 @@
+.avatar-img{
+    width: 50px !important;
+    height:50px !important;
+    border-radius: 50%;
+    /* max-width: 40px;
+    max-height: ; */
+}
+.top-bar-container{
+    display: flex;
+    /* max-width: 800px; */
+    width: 100%;
+    background-color: #dddddd;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+.gap-05{
+    gap:5px;
+}
+.gap-10{
+    gap:10px;
+}
+.gap-20{
+    gap:20px;
+}
+.bold{
+font-weight: 600;
+}
+#dropdown-basic{
+    background-color: transparent;
+    color: black;
+    border:none;
+}
+#dropdown-basic::after{
+    display: none;
+}
+.chat-container{
+max-width: 700px;
+width: 100%;
+}
+.main-container{
+    display: flex;
+     justify-content: center   
+}
+.message-card{
+display: flex;
+width: 100%;
+margin: 0px 0 20px 0;
+}
+.message-card .inner-card{
+   max-width: 400px; 
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+.user-card{
+    background-color: #dddddd;
+
+  
+}
+.robot-card{
+    background-color: rgb(1, 71, 1);
+
+    color: white;
+ }
