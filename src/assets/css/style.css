@@ -1,6 +1,6 @@
 .avatar-img{
-    width: 50px !important;
-    height:50px !important;
+    width: 40px !important;
+    height:40px !important;
     border-radius: 50%;
     /* max-width: 40px;
     max-height: ; */
@@ -12,7 +12,7 @@
     background-color: #dddddd;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 10px 25px;
     border-radius: 15px;
 }
 .gap-05{
@@ -36,8 +36,10 @@ font-weight: 600;
     display: none;
 }
 .chat-container{
-max-width: 700px;
+max-width: 550px;
 width: 100%;
+margin: 0;
+padding: 0;
 }
 .main-container{
     display: flex;
@@ -49,7 +51,7 @@ width: 100%;
 margin: 0px 0 20px 0;
 }
 .message-card .inner-card{
-   max-width: 400px; 
+   max-width: 300px; 
   border-radius: 10px;
   padding: 5px 10px;
 }
@@ -60,7 +62,29 @@ margin: 0px 0 20px 0;
   
 }
 .robot-card{
-    background-color: rgb(1, 71, 1);
-
+    background-color: #1b6cdd;
     color: white;
+ }
+
+ .chat-tab-area{
+    resize: none;
+
+ }
+.send-msg-btn{
+    padding:20px 10px 20px 10px;
+}
+ .container-send-tab{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    /* background-color: black; */
+    padding: 0px 0px;
+    margin: 0;
+    
+ }
+ .message-panel{
+    padding: 0px 10px;
+    max-height:70vh;
+    overflow-y: scroll;
  }

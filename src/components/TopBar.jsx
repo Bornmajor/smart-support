@@ -9,7 +9,7 @@ const TopBar = () => {
   
 
   return (
-    <div className='top-bar-container'>
+    <div className='top-bar-container '>
 
         <div className='d-flex align-items-center gap-20'>
 
@@ -20,7 +20,7 @@ const TopBar = () => {
           
           />
              
-           <p className='my-2 bold'>Support bot</p>
+           <p className='my-1 bold'>Support bot</p>
            
         </div>
   
@@ -36,9 +36,7 @@ const TopBar = () => {
       </Dropdown.Menu>
     </Dropdown>
 
-
-
-        
+  
 
     </div>
   )
